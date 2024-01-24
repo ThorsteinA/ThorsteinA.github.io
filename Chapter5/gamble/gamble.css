@@ -1,0 +1,60 @@
+body{
+    overflow-y: hidden;
+        background-image: url('images.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+}
+
+.gamble{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gambleMedium{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 250%;
+    width: 25vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ff5000;
+    color: gray;
+}
+
+#gambleSmall{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 250%;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #ff9000;
+    color: gray;
+}
+
+#gambleBig{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 500%;
+    width: 50vw;
+    padding-top: 8.3vh;
+    padding-bottom: 8.3vh;
+    background-color: #ff0000;
+    color: black;
+}
+
+.title{
+    text-align: center;
+    color: pink;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+#p1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}

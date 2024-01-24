@@ -1,0 +1,346 @@
+:root {
+        --color1: #5841d8;
+        --color2: #efecfb;
+        --color3: #292141;
+        --color4: #c0b9ff;
+        --color5: #5741d9;
+        --notColorBlind1: brown;
+        --notColorBlind2: purple;
+        --colorBlind1: #5EBA89;
+        --colorBlind2: #E35561;
+        --color6: #606070;
+        --color7: #555B66;
+      }
+
+* {
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color2);
+}
+
+#box1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2em;
+    background-color: var(--color1);
+    border: 1px solid var(--color2);
+    color: var(--color2);
+    height: 3em;
+    padding: 0 1em 0 1em;
+    font-size: 14px;
+}
+
+.video video {
+    width: 278px;
+    height: 579px;
+}
+
+.video {
+    position: relative;
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    padding-top: 5em;
+    justify-content: space-between;
+    background-color: var(--color2);
+}
+
+.gradient-container {
+    overflow: hidden;
+}
+
+.video>div>div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+#box2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2em;
+    background-color: var(--color2);
+    color: var(--color1);
+    height: 3em;
+    padding: 0 1em 0 1em;
+    font-size: 14px;
+    margin: 0 0 0 1em;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    background-color: var(--color1);
+    justify-content: space-between;
+    height: 100px;
+    color: var(--color2);
+    font-weight: bolder;
+}
+
+.navbarFlex1 {
+    display: flex;
+    padding-left: 2em;
+}
+
+.navbarFlex2 {
+    display: flex;
+    padding-right: 2em;
+}
+
+#navInfo {
+    display: flex;
+    margin-left: 2em;
+}
+
+#navInfo p {
+    margin-left: 2em;
+}
+
+.navbar * {
+    margin: 0;
+}
+
+.allImage{
+    background-color: var(--color3);
+    color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.textImage{
+    height: 10vh;
+}
+
+.image{
+    width: 80vw;
+    margin: auto;
+}
+
+
+.textImageBottom{
+    padding-bottom: 3em;
+}
+
+.imageTextBottom p{
+    margin: 0;
+}
+
+.navitem h1,
+.navitem p,
+.navitem h2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: fit-content;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--color5);
+    color: var(--color4);
+    padding-top: 2em;
+}
+
+
+.orderTotal {
+    display: flex;
+}
+
+.total {
+    width: 70%;
+}
+
+.currencySelection {
+    width: 30%;
+}
+
+
+
+.orderInfo>div>p:nth-child(2) {
+    text-align: right;
+    width: 100%;
+}
+
+.orderInfo>div>p:nth-child(1) {
+    text-align: left;
+    width: 20%;
+}
+
+.listItem {
+    height: 1.1em;
+    overflow: hidden;
+    margin: 1em;
+}
+
+.listItem p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: bolder;
+    height: 2em;
+    cursor: pointer;
+}
+
+#buyMoreBitcoin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(var(--color2) 5%, var(--color3));
+    padding: 2em;
+    color: var(--color2);
+}
+
+#jaja{
+    
+    color: var(--color3);
+}
+
+#bitcoinPrice {
+    text-align: center;
+    /* margin-bottom: 1em; */
+}
+
+#bitcoinPrice h1 {
+    font-size: 1.5em;
+}
+
+#bitcoinPrice2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.coinWrapper {
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--color3);
+    text-align: center;
+    padding: 1em;
+    /* margin-top: 1em; */
+}
+
+.buySellWrapper {
+    display: flex;
+    /* margin-bottom: 1em; */
+}
+
+.buyButton,
+.sellButton {
+    width: 50%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.buyButton {
+    background-color: var(--colorBlind1);
+}
+
+.sellButton {
+    background-color: var(--colorBlind2);
+}
+
+div>select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: var(--color7);
+    border: 3px solid var(--color7);
+    text-align: center;
+    /* margin-bottom: 1em; */
+}
+
+div>select:hover,
+div>select:focus {
+    background-color: var(--color6);
+    border: 3px solid var(--color6);
+}
+
+.total input {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid var(--color2);
+    border-radius: 3px;
+    background-color: var(--color7);
+    /* margin-bottom: 1em; */
+}
+
+.orderTotal,
+.orderInfo {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1em; */
+}
+
+.currencySelection,
+.total {
+    width: 48%;
+}
+
+.orderInfo>div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.orderInfo>div>p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.placeOrder {
+    background-color: var(--colorBlind1);
+    cursor: pointer;
+    height: 4vw;
+    border-radius: 3px;
+}
+
+.placeOrder>h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.refund{
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.refund:hover{
+    cursor: pointer;
+}
+
+#sortDropdown {
+    width: 39vw;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: var(--color7);
+    border: 3px solid var(--color7);
+}
+
+#list {
+    width: 100%;
+    max-width: 600px;
+}

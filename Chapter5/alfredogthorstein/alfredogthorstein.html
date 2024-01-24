@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alfredogthorstein.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital@1&family=Roboto&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbarFlex1">
+            <div class="navitem">
+                <h1>Wallets</h1>
+            </div>
+            <div id="navInfo" class="navitem">
+                <p>Explore</p>
+                <p>Prices</p>
+                <p>Why Wallets</p>
+                <p>Learn</p>
+                <p>Support</p>
+            </div>
+        </div>
+        <div class="navbarFlex2">
+            <div class="navitem" id="box1">
+                <h2 id="colorBlind">Color blind</h2>
+            </div>
+            <div class="navitem" id="box2">
+                <h2 id="scrollButton">Buy More</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="gradiantContainer">
+        <div class="video">
+            <div>
+                <div>
+                    <h1>Invest in your future</h1>
+                    <p>Grow your portfolio in a more fair and open financial system. Start trading crypto with just $10.
+                    </p>
+                </div>
+            </div>
+            <video autoplay="" loop="" playsinline="">
+                <source
+                    src="https://assets-cms.kraken.com/files/51n36hrp/facade/1813f169d13049c2f65a09286d10576d39442e72.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+
+
+        <div id="buyMoreBitcoin">
+            <div id="bitcoinPrice">
+                <h1 id="jaja">BTC is at (TNOK):</h1>
+                <h2 id="bitcoinPrice2">480</h2>
+            </div>
+            <div class="coinWrapper">
+                <div class="buySellWrapper">
+                    <div class="buyButton">
+                        <h1>Buy</h1>
+                    </div>
+                    <div class="sellButton">
+                        <h1>Sell</h1>
+                    </div>
+                </div>
+                <div class="marketSelection">
+                    <select id="selectMarket">
+                        <option value="marketOrder">Market</option>
+                        <option value="limitOrder">Limit</option>
+                    </select>
+                </div>
+                <div class="orderTotal">
+                    <div class="total"><input type="number" min="0" max="999999" id="totalEl"></div>
+                    <div class="currencySelection">
+                        <select id="selectCurrency">
+                            <option value="usdt">USDT</option>
+                            <option value="BTC">BTC</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="orderInfo">
+                    <div id="avblCurrency">
+                        <p>Avbl:</p>
+                        <p>USDT</p>
+                    </div>
+                    <div id="maxBuy">
+                        <p>Max buy:</p>
+                        <p>BTC
+                        </p>
+                    </div>
+                </div>
+                <div class="placeOrder">
+                    <h1>Buy BTC</h1>
+                </div>
+            </div>
+
+            <label for="sortDropdown">Sorter etter:</label>
+            <select id="sortDropdown" onchange="sortCategori()">
+                <option value="kategori"> Kategori</option>
+                <option value="totalValueUSDT">Total verdi</option>
+                <option value="date">Dato</option>
+            </select>
+
+
+            <div id="list">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="allImage">
+        <div class="textImage">
+            <h1>Trade spot and margin.
+                All in one powerful interface.</h1>
+        </div>
+        <div class="image">
+            <img src="Screen Shot 2023-12-14 at 10.33.48.png" alt="Photo of graphs">
+        </div>
+        <div class="textImageBottom">
+            <h1>High rate limits</h1>
+            <h1>Deep liquidity across markets</h1>
+            <h1>Low spreads</h1>
+        </div>
+    </div>
+
+    <div class="footer">
+        <li><span class="features">Features</span>
+            <ul>
+                <li>NFT Marketplace</li>
+                <li>Margin Trading</li>
+                <li>Futures Trading</li>
+                <li>OTC Trading</li>
+                <li>Institutions</li>
+                <li>API Trading</li>
+                <li>Staking Rewards</li>
+                <li>All features</li>
+            </ul>
+        </li>
+        <li><span class="company">Company</span>
+            <ul>
+                <li>Kraken Security</li>
+                <li>Kraken Careers</li>
+                <li>Kraken Blog</li>
+                <li>Press Room</li>
+                <li>Affiliate Program</li>
+                <li>Refer a Friend</li>
+                <li>Kraken Status</li>
+                <li>Support Center</li>
+            </ul>
+        </li>
+        <li><span class="browsePrices">Browse Prices</span>
+            <ul>
+                <li>Bitcoin Price</li>
+                <li>Ethereum Price</li>
+                <li>Dogecoin Price</li>
+                <li>XRP Price</li>
+                <li>Cardano Price</li>
+                <li>Solana Price</li>
+                <li>Litecoin Price</li>
+                <li>All crypto prices</li>
+            </ul>
+        </li>
+        <li><span class="popularMarkets">Popular Markets</span>
+            <ul>
+                <li>BTC to USD</li>
+                <li>ETH to USD</li>
+                <li>DOGE to USD</li>
+                <li>XRP to USD</li>
+                <li>ADA to USD</li>
+                <li>SOL to USD</li>
+                <li>LTC to USD</li>
+                <li>>All crypto markets</li>
+            </ul>
+        </li>
+        <li><span class="buyingGuides">Buying Guides</span>
+            <ul>
+                <li>Buy Bitcoin</li>
+                <li>Buy Ethereum</li>
+                <li>Buy Dogecoin</li>
+                <li>Buy XRP</li>
+                <li>Buy Cardano</li>
+                <li>Buy Solana</li>
+                <li>Buy Litecoin</li>
+                <li>All crypto guides</li>
+            </ul>
+        </li>
+        <li><span class="cryptoEducation">Crypto Education</span>
+            <ul>
+                <li>What is cryptocurrency?</li>
+                <li>Types of cryptocurrency</li>
+                <li>What is a blockchain?</li>
+                <li>What is Bitcoin?</li>
+                <li>What is Ethereum?</li>
+                <li>What is an NFT?</li>
+                <li>What is a DAO?</li>
+                <li>Learn crypto</li>
+            </ul>
+        </li>
+    </div>
+</body>
+<script src="alfredogthorstein.js"></script>

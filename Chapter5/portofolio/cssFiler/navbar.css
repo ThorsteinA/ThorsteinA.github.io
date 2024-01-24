@@ -1,0 +1,102 @@
+/* Navbar Styles */
+
+.totalNavbar{
+  position: fixed;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #1e2336;
+  height: 3em;
+  color: #cacaca;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #1c1f01;
+}
+
+/* Left side of the Navbar */
+.navbarLeft {
+  width: fit-content;
+  display: flex;
+}
+
+.navbarLeft:hover {
+  cursor: pointer;
+}
+
+/* Explorer Top Text Styles */
+.explorerTopText {
+  color: #cacaca;
+  padding-left: 1em;
+}
+
+/* Header 2 Styles */
+.navbarLeft h2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0 0 0 10px;
+  height: fit-content;
+}
+
+/* Navbar Left Image Styles */
+.navbarLeft img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+/* Visual Studio Logo Styles */
+.visualStudioLogo img {
+  width: 2em;
+}
+
+/* Middle of Navbar Styles */
+.navbarMiddle h4 {
+  margin: 0 !important;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Right side of the Navbar */
+.navbarRight {
+  float: right;
+  display: flex;
+  list-style: none;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+/* Navbar Right Image Styles */
+.navbarRight img {
+  width: 15px;
+  height: 15px;
+  margin-right: 0.5em;
+}
+
+/* Hover effect for Navbar Right Images */
+.navbarRight img:hover {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 57 74 / var(--tw-bg-opacity));
+}
+
+/* Special hover effect for the last Navbar Right Image */
+.navbarRight img:last-child:hover {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  background-color: red;
+}

@@ -1,0 +1,69 @@
+@media (max-width: 1170px) and (orientation: portrait){
+    .totalNavbar{
+        width: 1170px;
+    }
+    .phoneHide{
+        display: none;
+    }
+    .body{
+        overflow-x: hidden;
+    }
+    .startSideName{
+        display: none;
+    }
+    .mainSide{
+        border: none;
+        display: none;
+    }
+    .explorer{
+        border: none;
+    }
+    .footer{
+        display: none;
+    }
+}
+
+@media (max-width: 1920px) and (orientation: landscape){
+    .bodyPhone{
+        display: none;
+    }
+    .phoneFooter{
+        display: none;
+    }
+}
+
+.phoneFooter{
+    color: #a9b1d6;
+    width: 100%;
+    border-top: 1px solid #cacaca;
+}
+
+.bodyPhone{
+    padding-top: 75px;
+}
+
+.bodyPhoneNameImg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+    border: 2px solid black;
+    background-image: url(/Chapter5/portofolio/photos/phonePhoto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bodyPhoneNameImg2{
+    display: none;
+}
+
+.goBackArrow{
+    height: 10vh;
+    width: 10vw;
+    background-image: url(/Chapter5/portofolio/photos/goBackArrow.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

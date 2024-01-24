@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital@1&family=Roboto&display=swap');
+
+/* Global Styles */
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1e2336;
+}
+
+/* Transitions for arrow images */
+.arrowOneImage,
+.arrowTwoImage,
+.arrowThreeImage {
+  transition: transform 1s ease-in-out;
+}
+
+/* Styling for sections */
+.aboutMe,
+.myCV,
+.myProjects {
+  color: #a9b1d6;
+  padding-left: 2em;
+}
+
+/* Hover effect for clickable elements */
+.hoverIfClick:hover {
+  cursor: pointer;
+}
+
+/* Hidden information sections */
+.infoAboutMe,
+.infoMyCV,
+.infoMyProjects {
+  display: none;
+}
+
+/* Buttons for sections with images */
+.aboutMeButton,
+.myCVButton,
+.myProjectsButton {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for button images */
+.aboutMeButton img,
+.myCVButton img,
+.myProjectsButton img {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+/* Shown and hover effect for clickable sections */
+.shown {
+  display: block;
+}
+
+.shown:hover {
+  cursor: pointer;
+}
+
+/* Main Body Container */
+.body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 40px;
+}
+
+/* Explorer Section Styles */
+.explorer {
+  width: 20vw;
+  border-left: 2px solid #1c1f01;
+  border-right: 2px solid #1c1f01;
+  border-bottom: 2px solid #1c1f01;
+}
+
+.explorerTopText:hover{
+  cursor: pointer;
+}
+
+.html{
+  border-bottom: 100px solid black;
+}
+
+/* Main Content Section Styles */
+.mainSide {
+  width: 70vw;
+}
+
+/* Left Images Styles */
+.leftImages,
+.leftImages ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Additional Styles */
+.leftImages ul:first-child {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

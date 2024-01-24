@@ -1,0 +1,76 @@
+body{
+    background-image: url(giphy.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: auto;
+    height: 65vh;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: #0074e4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#playAgain{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 10vh;
+        margin-bottom: 0;
+        font-size: 3em;
+        color: red;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        background-color: transparent;
+        margin-top: 1vh;
+}
+
+.yourNumber{
+    text-align: center;
+    font-size: 3em;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#betAmount{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin-top: 1vh;
+}
+
+.snudd {
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 0);
+    background-color: black;
+    transition: 1.5s;
+    padding-top: 0vh;
+}
+
+.ikkesnudd {
+    font-size: xx-large;
+    opacity: 0.8;
+    color: black;
+    text-align: center;
+    padding-top: 6vh;
+    background-image: url(popcorn-smooth-ceiling-59d61049163b5.png);
+    transition: 1.5s;
+    border-radius: 3em;
+}
+
+#brukerTall{
+    margin-bottom: 2vh;
+}

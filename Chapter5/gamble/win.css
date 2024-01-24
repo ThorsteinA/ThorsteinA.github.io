@@ -1,0 +1,19 @@
+.win{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;  
+}
+
+body{
+    overflow-y: hidden;
+        background-image: url('money-rain-dollars.gif');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+}
+
