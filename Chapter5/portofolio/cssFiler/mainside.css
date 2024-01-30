@@ -215,6 +215,10 @@
   font-size: 3em;
 }
 
+.doneDownload1:hover{
+  cursor: pointer;
+}
+
 .downloadProjectsSide{
   position: relative;
   color: #cacaca;
@@ -224,6 +228,10 @@
 .doneDownload2{
   margin-top: 60%;
   font-size: 3em;
+}
+
+.doneDownload2:hover{
+  cursor: pointer;
 }
 
 .myProjectsSide{
@@ -347,4 +355,8 @@
 
 .hiddenScroll{
   display: none;
+}
+
+.seeMyCV:hover{
+  cursor: pointer;
 }
