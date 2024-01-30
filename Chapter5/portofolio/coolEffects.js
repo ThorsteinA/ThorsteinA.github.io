@@ -91,6 +91,23 @@ function downloadURL(URL, fileName){
 
     doneDownloadEl1.innerHTML="Your download is complete";
     }
+
+}
+
+let bodyPhoneMyCVDoneEl = document.querySelector(".bodyPhoneMyCVDone")
+
+function downloadURLPhone(URL, fileName){
+    if (isPortraitMode()) {
+    let link = document.createElement("a");
+    link.setAttribute("download", fileName);
+    link.href = URL;
+
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+    bodyPhoneMyCVDoneEl.innerHTML="Your download is complete";
+    }
 }
 
 let doneDownloadEl1 = document.querySelector(".doneDownload1");
@@ -122,3 +139,23 @@ document.querySelector(".seeMyCV").addEventListener('click', function () {
   document.addEventListener('DOMContentLoaded', function () {
     AOS.init();
   });
+
+
+
+
+
+// ?????????
+
+
+
+// let cards = document.querySelectorAll(".card")
+
+// let observer = new IntersectionObserver(entries =>{
+//     entries.forEach(entry =>{
+//         entry.target.classList.remove("hiddenScroll", entry.isIntersecting)
+//     })
+// })
+
+// cards.forEach(card =>{
+//     observer.observe(cards)
+// })
