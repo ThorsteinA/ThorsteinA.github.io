@@ -273,6 +273,7 @@ function goBack() {
       bodyPhoneInteresertP2El.innerHTML = "";
       bodyPhoneMyCVH1El.innerHTML = "";
       bodyPhoneMyCVTextEl.innerHTML = "";
+      bodyPhoneMyProjectsEl.style.display = "none";
       console.log(bodyPhoneNameImg2El.classList);
       bodyPhoneNameImg2El.classList.add("bodyPhoneNameImg2");
       bodyPhoneInteresertImg2El.classList.add("bodyPhoneInteresertImg2");
@@ -326,6 +327,7 @@ function checkCV() {
 function checkProjects() {
   if (isPortraitMode()) {
     bodyEl.classList.add("hidden");
+    bodyPhoneMyProjectsEl.style.display = "block";
     bodyPhoneMyProjectsLinkEl.style.display = "block";
     goBackArrowEl.style.display = "block";
     phoneFooterEl.classList.add("projectsPhoneFooter");
