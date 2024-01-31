@@ -38,7 +38,7 @@
 
     position: absolute;
     left: 10px;
-    border: 1px solid #000;
+    border: 1px solid #444;
     background-image: url("/Chapter5/portofolio/photos/bitcoinProjects.jpg");
     background-size: cover;
     filter: grayscale(70%) brightness(50%) contrast(80%);
@@ -60,7 +60,7 @@
 
     position: absolute;
     left: 100px;
-    border: 1px solid #000;
+    border: 1px solid #444;
     background-image: url("/Chapter5/portofolio/photos/quizProjects.webp");
     background-size: cover;
     filter: grayscale(70%) brightness(50%) contrast(80%);
@@ -82,7 +82,7 @@
 
     position: absolute;
     left: 190px;
-    border: 1px solid #000;
+    border: 1px solid #444;
     background-image: url("/Chapter5/portofolio/photos/spamProjects.webp");
     background-size: cover;
     filter: grayscale(70%) brightness(50%) contrast(80%);
@@ -104,7 +104,7 @@
 
     position: absolute;
     left: 280px;
-    border: 1px solid #000;
+    border: 1px solid #444;
     background-image: url("/Chapter5/portofolio/photos/flaksloddProjects.jpg");
     background-size: cover;
     filter: grayscale(70%) brightness(50%) contrast(80%);
@@ -140,14 +140,14 @@
 .phoneFooter {
   color: #a9b1d6;
   width: 100%;
-  border-top: 1px solid #cacaca;
+  border-top: 1px solid #444;
 }
 
 .projectsPhoneFooter {
   color: #a9b1d6;
   width: 100%;
   margin-top: 65vh;
-  border-top: 1px solid #cacaca;
+  border-top: 1px solid #444;
 }
 
 .bodyPhone {
@@ -161,7 +161,7 @@
   align-items: center;
   height: 40vh;
   width: 100vw;
-  border: 2px solid black;
+  border: 2px solid #444;
   background-image: url(/Chapter5/portofolio/photos/phonePhoto.jpg);
   background-size: cover;
   background-position: center;
@@ -174,7 +174,7 @@
   align-items: center;
   height: 40vh;
   width: 100vw;
-  border: 2px solid black;
+  border: 2px solid #444;
   background-image: url(/Chapter5/portofolio/photos/wrestlerPhoto.jpg);
   background-size: cover;
   background-position: center;
@@ -206,11 +206,14 @@
 }
 
 .arrowUp {
-  background-image: url(/Chapter5/portofolio/photos/arrowUp.png);
+  position: absolute;
+  left: 50%;
+  background-image: url(/Chapter5/portofolio/photos/arrow.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 8vw;
-  height: 7.4vh;
-  margin-top: 0;
+  rotate: 270deg;
+  width: 2vw;
+  height: 1.85vh;
+  margin-top: -13px;
 }
