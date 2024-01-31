@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital@1&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital@1&family=Roboto&display=swap");
 
 /* Global Styles */
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -82,11 +82,11 @@ body {
   border-bottom: 2px solid #1c1f01;
 }
 
-.explorerTopText:hover{
+.explorerTopText:hover {
   cursor: pointer;
 }
 
-.html{
+.html {
   border-bottom: 100px solid black;
 }
 

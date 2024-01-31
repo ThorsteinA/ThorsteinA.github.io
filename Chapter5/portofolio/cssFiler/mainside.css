@@ -1,5 +1,5 @@
-*{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 .hidden {
@@ -78,9 +78,9 @@
   margin: auto;
 }
 
-.marginBottomH2{
-    padding-bottom: 10%;
-    padding-top: 50px;
+.marginBottomH2 {
+  padding-bottom: 10%;
+  padding-top: 50px;
 }
 
 /* arrow scrollers */
@@ -124,62 +124,61 @@
   }
 }
 
-
-.textAndImg{
-    margin-top: 300px;
-    border-left: 2px solid #1c1f01;
+.textAndImg {
+  margin-top: 300px;
+  border-left: 2px solid #1c1f01;
 }
 
-.theBigShort{
-    width: 50vw;
-    height: auto;
-    margin-top: 5%;
+.theBigShort {
+  width: 50vw;
+  height: auto;
+  margin-top: 5%;
 }
 
 /* interessert siden */
 
 .interesertAboutMeSide {
-    color: #cacaca;
-    text-align: center !important;
-    margin-top: 30%;
-  }
-  
-  .interesertAboutMeSide h1 {
-    font-size: 3em;
-  }
-  
-  .interesertAboutMeSide h2:first-of-type {
-    margin-top: 5%;
-  }
-  
-  .interesertAboutMeSide h2:last-of-type{
-      margin-bottom: 10%;
-  }
-  
-  .interesertAboutMeSide h2 {
-    margin: auto;
-  }
-
-.myCVSide{
-    position: relative;
-    color: #cacaca;
-    left: -23%;
+  color: #cacaca;
+  text-align: center !important;
+  margin-top: 30%;
 }
 
-.myCVSide h1{
-    margin-top: 60%;
-    font-size: 3em;
+.interesertAboutMeSide h1 {
+  font-size: 3em;
+}
+
+.interesertAboutMeSide h2:first-of-type {
+  margin-top: 5%;
+}
+
+.interesertAboutMeSide h2:last-of-type {
+  margin-bottom: 10%;
+}
+
+.interesertAboutMeSide h2 {
+  margin: auto;
+}
+
+.myCVSide {
+  position: relative;
+  color: #cacaca;
+  left: -23%;
+}
+
+.myCVSide h1 {
+  margin-top: 60%;
+  font-size: 3em;
 }
 
 .myCVSee {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 150%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 150%;
 }
 
-@keyframes fadeIn{
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -187,59 +186,58 @@
     opacity: 1;
   }
 
-  0%{
+  0% {
     opacity: 0;
   }
-  50%{
+  50% {
     opacity: 1;
     transform: translate();
   }
-  100%{
+  100% {
     transform: translate();
   }
 }
 
 .myCVSee > * {
-    grid-column: span 1;
-    grid-row: span 1;
+  grid-column: span 1;
+  grid-row: span 1;
 }
 
-.downloadCVSide{
+.downloadCVSide {
   position: relative;
   color: #cacaca;
   left: -23%;
 }
 
-.doneDownload1{
+.doneDownload1 {
   margin-top: 60%;
   font-size: 3em;
 }
 
-.doneDownload1:hover{
+.doneDownload1:hover {
   cursor: pointer;
 }
 
-.downloadProjectsSide{
+.downloadProjectsSide {
   position: relative;
   color: #cacaca;
   left: -23%;
 }
 
-.doneDownload2{
+.doneDownload2 {
   margin-top: 60%;
   font-size: 3em;
 }
 
-.doneDownload2:hover{
+.doneDownload2:hover {
   cursor: pointer;
 }
 
-.myProjectsSide{
+.myProjectsSide {
   position: absolute !important;
   margin-top: 15%;
   margin-left: 850px;
 }
-
 
 .projectImagesContainer {
   display: grid;
@@ -251,13 +249,12 @@
   --s: 100px; /* stærrelsen på bildet liksom*/
   --b: 2px; /* størrelsen på borderen som kommer rundt*/
   --g: 14px; /* gapet mellom bildet og borderen*/
-  --c: #4ECDC4; /*fargen*/
-
+  --c: #4ecdc4; /*fargen*/
 
   position: absolute;
   left: -25px;
   border: 1px solid #000;
-  background-image: url('/Chapter5/portofolio/photos/bitcoinProjects.jpg');
+  background-image: url("/Chapter5/portofolio/photos/bitcoinProjects.jpg");
   background-size: cover;
   filter: grayscale(70%) brightness(50%) contrast(80%);
 
@@ -265,81 +262,78 @@
 
   width: var(--s);
   aspect-ratio: 1;
-  outline: calc(var(--s)/-2);
+  outline: calc(var(--s) / -2);
   cursor: pointer;
   transition: 0.75s;
-
 }
 
 .projectImages2 {
-
   --s: 100px; /* stærrelsen på bildet liksom*/
   --b: 2px; /* størrelsen på borderen som kommer rundt*/
   --g: 14px; /* gapet mellom bildet og borderen*/
-  --c: #4ECDC4; /*fargen*/
+  --c: #4ecdc4; /*fargen*/
 
   position: absolute;
   left: -145px;
   border: 1px solid #000;
-  background-image: url('/Chapter5/portofolio/photos/quizProjects.webp');
+  background-image: url("/Chapter5/portofolio/photos/quizProjects.webp");
   background-size: cover;
   filter: grayscale(70%) brightness(50%) contrast(80%);
 
-    /* fra nettet as*/
+  /* fra nettet as*/
 
-    width: var(--s);
-    aspect-ratio: 1;
-    outline: calc(var(--s)/-2);
-    cursor: pointer;
-    transition: 0.75s;
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s) / -2);
+  cursor: pointer;
+  transition: 0.75s;
 }
 
 .projectImages3 {
-
   --s: 100px; /* stærrelsen på bildet liksom*/
   --b: 2px; /* størrelsen på borderen som kommer rundt*/
   --g: 14px; /* gapet mellom bildet og borderen*/
-  --c: #4ECDC4; /*fargen*/
+  --c: #4ecdc4; /*fargen*/
 
   position: absolute;
   left: 95px;
   border: 1px solid #000;
-  background-image: url('/Chapter5/portofolio/photos/spamProjects.webp');
+  background-image: url("/Chapter5/portofolio/photos/spamProjects.webp");
   background-size: cover;
   filter: grayscale(70%) brightness(50%) contrast(80%);
 
-    /* fra nettet as*/
+  /* fra nettet as*/
 
-    width: var(--s);
-    aspect-ratio: 1;
-    outline: calc(var(--s)/-2);
-    cursor: pointer;
-    transition: 0.75s;
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s) / -2);
+  cursor: pointer;
+  transition: 0.75s;
 }
 
 .projectImages4 {
   --s: 100px; /* stærrelsen på bildet liksom*/
   --b: 2px; /* størrelsen på borderen som kommer rundt*/
   --g: 14px; /* gapet mellom bildet og borderen*/
-  --c: #4ECDC4; /*fargen*/
+  --c: #4ecdc4; /*fargen*/
 
   position: absolute;
   left: 215px;
   border: 1px solid #000;
-  background-image: url('/Chapter5/portofolio/photos/flaksloddProjects.jpg');
+  background-image: url("/Chapter5/portofolio/photos/flaksloddProjects.jpg");
   background-size: cover;
   filter: grayscale(70%) brightness(50%) contrast(80%);
 
-    /* fra nettet as*/
+  /* fra nettet as*/
 
-    width: var(--s);
-    aspect-ratio: 1;
-    outline: calc(var(--s)/-2);
-    cursor: pointer;
-    transition: 0.75s;
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s) / -2);
+  cursor: pointer;
+  transition: 0.75s;
 }
 
-.projectImages:hover{
+.projectImages:hover {
   /*nettet */
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
@@ -348,15 +342,14 @@
   filter: grayscale(0%) brightness(100%) contrast(110%);
 }
 
-
-.centerText{
+.centerText {
   color: #cacaca;
 }
 
-.hiddenScroll{
+.hiddenScroll {
   display: none;
 }
 
-.seeMyCV:hover{
+.seeMyCV:hover {
   cursor: pointer;
 }

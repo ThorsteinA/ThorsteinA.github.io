@@ -1,220 +1,216 @@
-@media (max-width: 1170px) and (orientation: portrait){
-    .totalNavbar{
-        width: 1170px;
-    }
-    .phoneHide{
-        display: none;
-    }
-    .body{
-        overflow-x: hidden;
-    }
-    .startSideName{
-        display: none;
-    }
-    .mainSide{
-        border: none;
-        display: none;
-    }
-    .explorer{
-        border: none;
-    }
-    .footer{
-        display: none;
-    }
-    .myCVSide{
-        display: none;
-    }
-    .download_CVAboutMe{
-        display: none;
-    }
-    .download_ProjectsAboutMe{
-        display: none;
-    }
-    .projectPhoneImages1 {
-        --s: 80px; /* stærrelsen på bildet liksom*/
-        --b: 2px; /* størrelsen på borderen som kommer rundt*/
-        --g: 5px; /* gapet mellom bildet og borderen*/
-        --c: #4ECDC4; /*fargen*/
-      
-      
-        position: absolute;
-        left: 10px;
-        border: 1px solid #000;
-        background-image: url('/Chapter5/portofolio/photos/bitcoinProjects.jpg');
-        background-size: cover;
-        filter: grayscale(70%) brightness(50%) contrast(80%);
-      
-        /* fra nettet as*/
-      
-        width: var(--s);
-        aspect-ratio: 1;
-        outline: calc(var(--s)/-2);
-        cursor: pointer;
-        transition: 0.75s;
-      
-      }
-      
-      .projectPhoneImages2 {
-      
-        --s: 80px; /* stærrelsen på bildet liksom*/
-        --b: 2px; /* størrelsen på borderen som kommer rundt*/
-        --g: 5px; /* gapet mellom bildet og borderen*/
-        --c: #4ECDC4; /*fargen*/
-      
-        position: absolute;
-        left: 100px;
-        border: 1px solid #000;
-        background-image: url('/Chapter5/portofolio/photos/quizProjects.webp');
-        background-size: cover;
-        filter: grayscale(70%) brightness(50%) contrast(80%);
-      
-          /* fra nettet as*/
-      
-          width: var(--s);
-          aspect-ratio: 1;
-          outline: calc(var(--s)/-2);
-          cursor: pointer;
-          transition: 0.75s;
-      }
-      
-      .projectPhoneImages3 {
-      
-        --s: 80px; /* stærrelsen på bildet liksom*/
-        --b: 2px; /* størrelsen på borderen som kommer rundt*/
-        --g: 5px; /* gapet mellom bildet og borderen*/
-        --c: #4ECDC4; /*fargen*/
-      
-        position: absolute;
-        left: 190px;
-        border: 1px solid #000;
-        background-image: url('/Chapter5/portofolio/photos/spamProjects.webp');
-        background-size: cover;
-        filter: grayscale(70%) brightness(50%) contrast(80%);
-      
-          /* fra nettet as*/
-      
-          width: var(--s);
-          aspect-ratio: 1;
-          outline: calc(var(--s)/-2);
-          cursor: pointer;
-          transition: 0.75s;
-      }
-      
-      .projectPhoneImages4 {
-        --s: 80px; /* stærrelsen på bildet liksom*/
-        --b: 2px; /* størrelsen på borderen som kommer rundt*/
-        --g: 5px; /* gapet mellom bildet og borderen*/
-        --c: #4ECDC4; /*fargen*/
-      
-        position: absolute;
-        left: 280px;
-        border: 1px solid #000;
-        background-image: url('/Chapter5/portofolio/photos/flaksloddProjects.jpg');
-        background-size: cover;
-        filter: grayscale(70%) brightness(50%) contrast(80%);
-      
-          /* fra nettet as*/
-      
-          width: var(--s);
-          aspect-ratio: 1;
-          outline: calc(var(--s)/-2);
-          cursor: pointer;
-          transition: 0.75s;
-      }
-      
-      .projectPhoneImages:hover{
-        /*nettet */
-        outline: var(--b) solid var(--c);
-        outline-offset: var(--g);
-      
-        /*selv ide*/
-        filter: grayscale(0%) brightness(100%) contrast(110%);
-      }
-}
-
-@media (max-width: 1920px) and (orientation: landscape){
-    .bodyPhone{
-        display: none;
-    }
-    .phoneFooter{
-        display: none;
-    }
-}
-
-.phoneFooter{
-    color: #a9b1d6;
-    width: 100%;
-    border-top: 1px solid #cacaca;
-}
-
-.projectsPhoneFooter{
-    color: #a9b1d6;
-    width: 100%;
-    margin-top: 65vh;
-    border-top: 1px solid #cacaca;
-}
-
-.bodyPhone{
-    padding-top: 75px;
-    color: #cacaca;
-}
-
-.bodyPhoneNameImg1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    width: 100vw;
-    border: 2px solid black;
-    background-image: url(/Chapter5/portofolio/photos/phonePhoto.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.bodyPhoneInteresertImg3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    width: 100vw;
-    border: 2px solid black;
-    background-image: url(/Chapter5/portofolio/photos/wrestlerPhoto.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.bodyPhoneNameImg2{
+@media (max-width: 1170px) and (orientation: portrait) {
+  .totalNavbar {
+    width: 1170px;
+  }
+  .phoneHide {
     display: none;
-}
-
-.bodyPhoneInteresertImg2{
+  }
+  .body {
+    overflow-x: hidden;
+  }
+  .startSideName {
     display: none;
-}
-
-.goBackArrow{
-    padding-left: 2em;
-    rotate: 180deg;
+  }
+  .mainSide {
+    border: none;
     display: none;
-    height: 5vh;
-    width: 12vw;
-    background-image: url(/Chapter5/portofolio/photos/goBackArrowTransparent1.png);
+  }
+  .explorer {
+    border: none;
+  }
+  .footer {
+    display: none;
+  }
+  .myCVSide {
+    display: none;
+  }
+  .download_CVAboutMe {
+    display: none;
+  }
+  .download_ProjectsAboutMe {
+    display: none;
+  }
+  .projectPhoneImages1 {
+    --s: 80px; /* stærrelsen på bildet liksom*/
+    --b: 2px; /* størrelsen på borderen som kommer rundt*/
+    --g: 5px; /* gapet mellom bildet og borderen*/
+    --c: #4ecdc4; /*fargen*/
+
+    position: absolute;
+    left: 10px;
+    border: 1px solid #000;
+    background-image: url("/Chapter5/portofolio/photos/bitcoinProjects.jpg");
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    filter: grayscale(70%) brightness(50%) contrast(80%);
 
-.bodyPhoneMyProjectsLink{
-    display: none;
-}
+    /* fra nettet as*/
 
-.arrowUp{
-    background-image: url(/Chapter5/portofolio/photos/arrowUp.png);
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s) / -2);
+    cursor: pointer;
+    transition: 0.75s;
+  }
+
+  .projectPhoneImages2 {
+    --s: 80px; /* stærrelsen på bildet liksom*/
+    --b: 2px; /* størrelsen på borderen som kommer rundt*/
+    --g: 5px; /* gapet mellom bildet og borderen*/
+    --c: #4ecdc4; /*fargen*/
+
+    position: absolute;
+    left: 100px;
+    border: 1px solid #000;
+    background-image: url("/Chapter5/portofolio/photos/quizProjects.webp");
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 10vw;
-    height: 10vh;
+    filter: grayscale(70%) brightness(50%) contrast(80%);
+
+    /* fra nettet as*/
+
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s) / -2);
+    cursor: pointer;
+    transition: 0.75s;
+  }
+
+  .projectPhoneImages3 {
+    --s: 80px; /* stærrelsen på bildet liksom*/
+    --b: 2px; /* størrelsen på borderen som kommer rundt*/
+    --g: 5px; /* gapet mellom bildet og borderen*/
+    --c: #4ecdc4; /*fargen*/
+
+    position: absolute;
+    left: 190px;
+    border: 1px solid #000;
+    background-image: url("/Chapter5/portofolio/photos/spamProjects.webp");
+    background-size: cover;
+    filter: grayscale(70%) brightness(50%) contrast(80%);
+
+    /* fra nettet as*/
+
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s) / -2);
+    cursor: pointer;
+    transition: 0.75s;
+  }
+
+  .projectPhoneImages4 {
+    --s: 80px; /* stærrelsen på bildet liksom*/
+    --b: 2px; /* størrelsen på borderen som kommer rundt*/
+    --g: 5px; /* gapet mellom bildet og borderen*/
+    --c: #4ecdc4; /*fargen*/
+
+    position: absolute;
+    left: 280px;
+    border: 1px solid #000;
+    background-image: url("/Chapter5/portofolio/photos/flaksloddProjects.jpg");
+    background-size: cover;
+    filter: grayscale(70%) brightness(50%) contrast(80%);
+
+    /* fra nettet as*/
+
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s) / -2);
+    cursor: pointer;
+    transition: 0.75s;
+  }
+
+  .projectPhoneImages:hover {
+    /*nettet */
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+
+    /*selv ide*/
+    filter: grayscale(0%) brightness(100%) contrast(110%);
+  }
+}
+
+@media (max-width: 1920px) and (orientation: landscape) {
+  .bodyPhone {
+    display: none;
+  }
+  .phoneFooter {
+    display: none;
+  }
+}
+
+.phoneFooter {
+  color: #a9b1d6;
+  width: 100%;
+  border-top: 1px solid #cacaca;
+}
+
+.projectsPhoneFooter {
+  color: #a9b1d6;
+  width: 100%;
+  margin-top: 65vh;
+  border-top: 1px solid #cacaca;
+}
+
+.bodyPhone {
+  padding-top: 75px;
+  color: #cacaca;
+}
+
+.bodyPhoneNameImg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100vw;
+  border: 2px solid black;
+  background-image: url(/Chapter5/portofolio/photos/phonePhoto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bodyPhoneInteresertImg3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100vw;
+  border: 2px solid black;
+  background-image: url(/Chapter5/portofolio/photos/wrestlerPhoto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bodyPhoneNameImg2 {
+  display: none;
+}
+
+.bodyPhoneInteresertImg2 {
+  display: none;
+}
+
+.goBackArrow {
+  padding-left: 2em;
+  rotate: 180deg;
+  display: none;
+  height: 5vh;
+  width: 12vw;
+  background-image: url(/Chapter5/portofolio/photos/goBackArrowTransparent1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bodyPhoneMyProjectsLink {
+  display: none;
+}
+
+.arrowUp {
+  background-image: url(/Chapter5/portofolio/photos/arrowUp.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 8vw;
+  height: 7.4vh;
+  margin-top: 0;
 }
